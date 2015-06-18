@@ -23,8 +23,11 @@ a:hover {
 #big-head {
 	height: 700px;
 	width: 100%;
-	background: url(../img/big-head.jpg) no-repeat center left ;
-	background-size: cover;
+	background: url(../img/big-head3.jpg) no-repeat center left ;
+	background-size: contain;
+}
+#big-head h2 {
+	color: white;
 }
 #site-title {
 	font-weight: 800;
@@ -33,6 +36,7 @@ a:hover {
 }
 nav {
 	font-size: 48px;
+	color: white;
 }
 .pattern {
 	width: 100%;
