@@ -1,7 +1,6 @@
 /* simple reset */
 body {
-	margin: 0;
-	height: 100%
+	min-height: 100%;
 }
 
 
@@ -11,7 +10,7 @@ body, p {
 	font-family: 'Raleway', sans-serif;
 }
 a {
-	color: #1798C5;
+	color: #FFFC00;
 }
 a:hover {
 	text-decoration: none;
@@ -19,35 +18,68 @@ a:hover {
 
 
 /* custom styles */
-
 #big-head {
-	height: 700px;
+	height: 100%;
 	width: 100%;
-	background: url(../img/big-head3.jpg) no-repeat center left ;
+	background: url(../img/big-head3.jpg) no-repeat center left fixed;
 	background-size: contain;
 }
-#big-head h2 {
+#big-head h2, #big-head p {
 	color: white;
+}
+
+#big-head p {
+	font-size: 18px;
 }
 #site-title {
 	font-weight: 800;
 	color: #fffc05;
 	font-size: 72px;
+	line-height: 74px;
 }
 nav {
 	font-size: 48px;
 	color: white;
+	line-height: 42px;
 }
 .pattern {
 	width: 100%;
 	height: 100%;
+	min-height: 100%;
 	z-index: 100;
 	background: url(../img/pattern.png) repeat;
 }
-.feature {
-	background-color: #add3df;
-	color: white;
-	font-size: 24px;
-	padding-top: 24px;
-	padding-bottom: 24px;
+.summary {
+	margin-top:128px;
+	margin-bottom: 48px;
 }
+.summary div[class*="col-md-"] {
+	background-color: rgba(38, 57, 205, 0.3); 
+	padding: 8px 8px 6px 14px;
+}
+.summary p {
+	margin: 0;
+}
+@media (max-width: 960px) {
+	.summary {
+		margin-top: 48px;
+}
+}
+@media (max-width: 568px) {
+	#site-title {
+		margin-top: 60px;
+		font-size: 60px;
+		line-height: 60px;
+	}
+}
+@media screen and (max-aspect-ratio: 1/1) { 
+	#big-head {
+		background-size: cover;
+}
+}
+/* @media screen and (min-aspect-ratio: 1/1) { 
+	#big-head {
+		height: 100%;
+	}
+}
+	*/
