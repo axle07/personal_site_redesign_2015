@@ -8,6 +8,7 @@ body {
 
 body, p {
 	font-family: 'Raleway', sans-serif;
+	color: white;
 }
 a {
 	color: #FFFC00;
@@ -59,6 +60,23 @@ nav {
 }
 .summary p {
 	margin: 0;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1#site-title {
+	text-align: left;
+}
+#intro {
+	background-color: #00BFFF;
+}
+#dnd {
+	background-color: #26397F;
+}
+#research {
+	background-color: #4C72FF;
 }
 @media (max-width: 960px) {
 	.summary {
