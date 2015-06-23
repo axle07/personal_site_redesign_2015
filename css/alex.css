@@ -9,6 +9,11 @@ body {
 body, p {
 	font-family: 'Raleway', sans-serif;
 	color: white;
+	font-size: 16px;
+}
+img {
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 a {
 	color: #FFFC00;
@@ -53,7 +58,7 @@ nav {
 	background: url(../img/pattern.png) repeat;
 }
 .summary {
-	margin-top:128px;
+	margin-top:104px;
 	margin-bottom: 48px;
 }
 .summary div[class*="col-md-"] {
@@ -85,7 +90,16 @@ h1#site-title {
 	background-color: #26397F;
 }
 #research {
+	background-color: #131C40;
+}
+#interaction {
 	background-color: #4C72FF;
+}
+#outro {
+	background-color: #4C577F;
+}
+#outro h1 {
+	font-weight: 200;
 }
 @media (max-width: 960px) {
 	.summary {
