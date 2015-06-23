@@ -24,6 +24,10 @@ a:hover {
 .row {
 	padding-bottom: 32px;
 }
+.glyphicon {
+	font-size: 48px;
+	text-align:center;
+}
 
 /* custom styles */
 #big-head {
@@ -61,7 +65,7 @@ nav {
 	margin-top:104px;
 	margin-bottom: 48px;
 }
-.summary div[class*="col-md-"] {
+.summary div[class*="col-sm-"] {
 	background-color: rgba(38, 57, 205, 0.3); 
 	padding: 8px 8px 6px 14px;
 }
@@ -76,8 +80,10 @@ h1 {
 .row h1 {
 	margin-top: 48px;
 }
+.row h2 {
+	margin-top: 36px;
+}
 .row hr {
-	margin-bottom: 28px;
 	width:348px;
 }
 h1#site-title {
@@ -94,6 +100,9 @@ h1#site-title {
 }
 #interaction {
 	background-color: #4C72FF;
+}
+#progress {
+	background-color: #0F8AD9;
 }
 #outro {
 	background-color: #4C577F;
@@ -112,15 +121,17 @@ h1#site-title {
 		font-size: 60px;
 		line-height: 60px;
 	}
+	.row {
+		padding-bottom: 24px;
+	}
+}
+@media (max-width: 360px) {
+  .row hr {
+		width: 280px;
+	}
 }
 @media screen and (max-aspect-ratio: 1/1) { 
 	#big-head {
 		background-size: cover;
 }
 }
-/* @media screen and (min-aspect-ratio: 1/1) { 
-	#big-head {
-		height: 100%;
-	}
-}
-	*/
