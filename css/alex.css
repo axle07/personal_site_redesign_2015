@@ -10,6 +10,7 @@ body, p {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 16px;
+	font-weight: 200;
 }
 img {
 	margin-top: 16px;
@@ -82,6 +83,7 @@ h1 {
 }
 .row h2 {
 	margin-top: 36px;
+	font-weight: 200;
 }
 .row hr {
 	width:348px;
@@ -90,7 +92,10 @@ h1#site-title {
 	text-align: left;
 }
 #intro {
-	background-color: #00BFFF;
+	background-color: #272727; /*  #00BFFF; */
+}
+#intro h1 {
+	font-size: 42px;
 }
 #dnd {
 	background-color: #26397F;
