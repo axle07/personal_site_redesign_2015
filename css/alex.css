@@ -77,7 +77,7 @@ nav {
 	margin-bottom: 48px;
 }
 .summary div[class*="col-sm-"] {
-	background-color: rgba(38, 57, 205, 0.3); 
+	background-color: rgba(38, 57, 205, 0.4); 
 	padding: 8px 8px 6px 14px;
 }
 .summary p {
