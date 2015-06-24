@@ -9,7 +9,7 @@ body {
 body, p {
 	font-family: 'Raleway', sans-serif;
 	color: white;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 200;
 }
 img {
@@ -31,6 +31,16 @@ a:hover {
 }
 
 /* custom styles */
+#bg {
+	margin-top: 0;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  height: 100%;
+	z-index: -1;
+}
 #big-head {
 	height: 100%;
 	width: 100%;
